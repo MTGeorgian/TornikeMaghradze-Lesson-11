@@ -1,6 +1,6 @@
 // 1.
 let cars = ['audi', 'bmw', 'lexus', 'volkswagen', 'porsche', 'honda'];
-for (let i = 2; i <=5; i++){
+for (let i = 1; i < 5; i++){
         console.log(cars[i]);
     }
 
@@ -44,13 +44,18 @@ for(var z = 0; z < zero.length; z++)
 console.log(zero[z]);
 
 // 7. ვერ გავიგე როგორ უნდა გამეკეთებინა
-let namess = ['sandro', 'ab', 'abc', 'abcd', 'abcde', 'jhon', 'nika']
-if(namess.length = 5 && namess[5] === 'nika'){
-    console.log(namess.length, namess[5]);
-}else if(namess.length = 7 || namess[0] === 'sandro'){
-    console.log(namess.length, namess[0]);
-}else{
-    console.log(error);
+let namess = ['abc', 'abcd', 'abcde', 'jhon', 'nika']
+if(namess.length === 5 && namess[namess.length - 1] === 'nika'){
+    console.log('მასივის რაოდენობა: 5 და ბოლო ელემენტია ნიკა');
+}else {
+    console.log('error');
+}
+
+let namesss = ['sandro', 'ab', 'abc', 'abcd', 'abcde', 'jhon', 'nika']
+if (namess.length === 7 || namesss[0] === 'sandro') {
+  console.log('მასივის რაოდენობა: 7 და პირველი ელემენტია სანდრო');  
+} else {
+  console.log('error');
 }
 
 // 8.
